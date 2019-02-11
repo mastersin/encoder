@@ -60,7 +60,7 @@ public:
                uint8_t stepsPerNotch = 1, bool active = LOW, bool BTN_Active = LOW);
 
   void service(void);
-  int16_t getValue(void);
+  int16_t getValue(bool pick = false);
 
 #ifndef WITHOUT_BUTTON
 public:
