@@ -98,6 +98,7 @@ private:
   const uint8_t pinA;
   const uint8_t pinB;
   const uint8_t pinBTN;
+  const uint8_t BTNActive;
   const bool pinsActive;
   volatile int16_t delta;
   volatile int16_t last;
